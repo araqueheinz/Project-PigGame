@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <title>Pig Game</title>
+    </head>
+
+    <body>
+      <section class="wrapper clearfix">
+        <!-- PLAYER 0 -->
+        <section class="player-0-panel active">
+            <h1 class="player-name" id="name-0">Player 1</h1>
+            <h2 class="player-score" id="score-0">10</h2>
+            <section class="player-current-box">
+                <p class="player-current-label">Current</p>
+                <h3 class="player-current-score" id="current-0">10</h3>
+            </section>
+        </section>
+
+        <!-- PLAYER 1 -->
+        <section class="player-1-panel">
+            <h1 class="player-name" id="name-1">Player 2</h1>
+            <h2 class="player-score" id="score-1">72</h2>
+            <section class="player-current-box">
+                <p class="player-current-label">Current</p>
+                <h3 class="player-current-score" id="current-1">87</h3>
+            </section>
+        </section>
+
+            <button class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
+            <button class="btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>
+            <button class="btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
+
+            <input type="text" placeholder="Final score" class="final-score">
+
+            <img src="./img/dice-5.png" alt="Dice" class="dice" id="dice-1">
+            <img src="./img/dice-5.png" alt="Dice" class="dice" id="dice-2">
+
+        </div>
+
+        <!--<script src="app.js"></script>-->
+        <script src="main.js"></script>
+    </body>
+</html>
